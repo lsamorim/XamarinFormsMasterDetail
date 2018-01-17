@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetail.Views.MainPage"
+             Title="{Binding Title}">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label Text="Home" HorizontalOptions="Center"/>
+        <Button Text="Details 1" Command="{Binding NavigateCmd}" CommandParameter="1"/>
+        <Button Text="Details 2" Command="{Binding NavigateCmd}" CommandParameter="2"/>
+        <Button Text="Details 3" Command="{Binding NavigateCmd}" CommandParameter="3"/>
+        <Button Text="Details 4" Command="{Binding NavigateCmd}" CommandParameter="4"/>
+        <Button Text="Details 5" Command="{Binding NavigateCmd}" CommandParameter="5"/>
+        <Button Text="Details 6" Command="{Binding NavigateCmd}" CommandParameter="6"/>
+        <Button Text="Details 7" Command="{Binding NavigateCmd}" CommandParameter="7"/>
+        <Button Text="Details 8" Command="{Binding NavigateCmd}" CommandParameter="8"/>
+    </StackLayout>
+
+</ContentPage>
